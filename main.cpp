@@ -4,11 +4,17 @@
 #include "TaxiCenter.h"
 #include "TaxiStandard.h"
 #include "TaxiLuxury.h"
+#include "src/sockets/Udp.h"
+#include <boost/archive/text_iarchive.hpp>
+#include <sstream>
+#include <iostream>
+#include <fstream>
+
 
 using namespace std;
 
 //main function.
-int main() {
+int main(int argc, char* argv[]) {
 
     char dummy;
     int sizeGridX, sizeGridY, numbersOfObstacles;
@@ -35,6 +41,7 @@ int main() {
         switch (selection) {
             // insert driver
             case 1: {
+                /*
                 int driver_id, age, xp, vehicle_id;
                 char status;
                 Point p = Point(0,0);
@@ -44,6 +51,20 @@ int main() {
                     >> xp >> dummy >> vehicle_id;
                 Driver *driver = new Driver(driver_id, age, status, xp,
                                             vehicle_id, n);
+                */
+
+                Udp udp(1, 5555);
+                udp.initialize();
+
+                char buffer[1024];
+                udp.reciveData(buffer, sizeof(buffer));
+                cout << buffer << endl;
+
+                istringstream iss;
+                boost::archive::text_iarchive ia(iss);
+
+                Driver* driver;
+                ia >> BOOST_SERIALIZATION_NVP(driver);
                 // adding the driver.
                 taxiCenter->addDriver(driver);
                 break;

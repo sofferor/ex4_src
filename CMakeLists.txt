@@ -1,9 +1,17 @@
-cmake_minimum_required(VERSION 3.6)
-project(ex3_src)
+cmake_minimum_required(VERSION 3.3)
+project(practice6)
 
-set(CMAKE_CXX_STANDARD 98)
+set(core_sockets src/sockets/Socket.cpp src/sockets/Udp.cpp)
 
-set(SOURCE_FILES main.cpp
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+set(BOOST_ROOT CACHE PATH "/usr/include/boost/")
+find_package(Boost 1.58.0 COMPONENTS serialization system)
+include_directories(${Boost_INCLUDE_DIR})
+
+add_library(sockets ${core_sockets})
+
+set(SOURCE_FILES
         Point.cpp Point.h
         Node.cpp Node.h
         BFS.cpp BFS.h
@@ -18,4 +26,12 @@ set(SOURCE_FILES main.cpp
         TaxiLuxury.cpp TaxiLuxury.h
         TaxiCenter.cpp TaxiCenter.h
         Trip.h Trip.cpp)
-add_executable(ex4_src ${SOURCE_FILES})
+
+add_executable(server server.cpp)
+add_executable(client client.cpp ${SOURCE_FILES})
+add_executable(main main.cpp ${SOURCE_FILES})
+
+target_link_libraries(main sockets)
+target_link_libraries(client sockets)
+target_link_libraries(client ${Boost_LIBRARIES})
+target_link_libraries(main ${Boost_LIBRARIES})

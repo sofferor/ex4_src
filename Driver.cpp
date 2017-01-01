@@ -56,6 +56,18 @@ Driver::Driver(int id, int age, char mrStatus, int yOfExp, int vehicle_id,
     avgSatisfaction = 0;
 }
 
+Driver::Driver(Driver *newDriver) {
+    taxi = newDriver->taxi;
+    trip = newDriver->trip;
+    id = newDriver->id;
+    age = newDriver->age;
+    mStatus = newDriver->mStatus;
+    yOfExp = newDriver->yOfExp;
+    avgSatisfaction = newDriver->avgSatisfaction;
+    location = newDriver->location;
+    vehicle_id = newDriver->vehicle_id;
+}
+
 /**
  * get driver's id.
  * @return int
@@ -211,6 +223,10 @@ void Driver::clearTrip() {
 Driver::~Driver() {
     delete(taxi);
     delete(trip);
+}
+
+Driver::Driver() {
+
 }
 
 

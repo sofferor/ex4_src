@@ -14,6 +14,7 @@ private:
 public:
     //Empty constructor for passenger.
     Passenger();
+
     //Constructor for passenger with parameters.
     Passenger(Node *source, Node *destination);
 

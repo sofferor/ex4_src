@@ -6,6 +6,12 @@
 #include "Node.h"
 #include "Taxi.h"
 #include "Trip.h"
+#include <boost/archive/xml_oarchive.hpp>
+#include <boost/archive/xml_iarchive.hpp>
+#include <iostream>
+#include <fstream>
+#include <boost/serialization/serialization.hpp>
+
 
 enum maritalStatus {SINGLE, MARRIED, DIVORCED, WIDOWED};
 
@@ -57,6 +63,9 @@ public:
      * @param locationD
      */
     Driver(int id, int age, char mrStatus, int yOfExp, int vehicle_id, Node* locationD);
+
+    Driver(Driver* newDriver);
+    Driver();
 
     /**
      * Distructor for Driver.
@@ -168,6 +177,18 @@ public:
      * clearing the trip.
      */
     void clearTrip();
+
+    template<class Archive>
+    void serialize(Archive& archive, const unsigned int version)
+    {
+        archive & BOOST_SERIALIZATION_NVP(taxi);
+        archive & BOOST_SERIALIZATION_NVP(id);
+        archive & BOOST_SERIALIZATION_NVP(age);
+        archive & BOOST_SERIALIZATION_NVP(mStatus);
+        archive & BOOST_SERIALIZATION_NVP(yOfExp);
+        archive & BOOST_SERIALIZATION_NVP(location);
+        archive & BOOST_SERIALIZATION_NVP(vehicle_id);
+    }
 };
 
 
