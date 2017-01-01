@@ -123,6 +123,330 @@ ex4_src/fast:
 	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/build
 .PHONY : ex4_src/fast
 
+BFS.o: BFS.cpp.o
+
+.PHONY : BFS.o
+
+# target to build an object file
+BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/BFS.cpp.o
+.PHONY : BFS.cpp.o
+
+BFS.i: BFS.cpp.i
+
+.PHONY : BFS.i
+
+# target to preprocess a source file
+BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/BFS.cpp.i
+.PHONY : BFS.cpp.i
+
+BFS.s: BFS.cpp.s
+
+.PHONY : BFS.s
+
+# target to generate assembly for a file
+BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/BFS.cpp.s
+.PHONY : BFS.cpp.s
+
+Driver.o: Driver.cpp.o
+
+.PHONY : Driver.o
+
+# target to build an object file
+Driver.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Driver.cpp.o
+.PHONY : Driver.cpp.o
+
+Driver.i: Driver.cpp.i
+
+.PHONY : Driver.i
+
+# target to preprocess a source file
+Driver.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Driver.cpp.i
+.PHONY : Driver.cpp.i
+
+Driver.s: Driver.cpp.s
+
+.PHONY : Driver.s
+
+# target to generate assembly for a file
+Driver.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Driver.cpp.s
+.PHONY : Driver.cpp.s
+
+Environment.o: Environment.cpp.o
+
+.PHONY : Environment.o
+
+# target to build an object file
+Environment.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Environment.cpp.o
+.PHONY : Environment.cpp.o
+
+Environment.i: Environment.cpp.i
+
+.PHONY : Environment.i
+
+# target to preprocess a source file
+Environment.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Environment.cpp.i
+.PHONY : Environment.cpp.i
+
+Environment.s: Environment.cpp.s
+
+.PHONY : Environment.s
+
+# target to generate assembly for a file
+Environment.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Environment.cpp.s
+.PHONY : Environment.cpp.s
+
+Matrix2D.o: Matrix2D.cpp.o
+
+.PHONY : Matrix2D.o
+
+# target to build an object file
+Matrix2D.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Matrix2D.cpp.o
+.PHONY : Matrix2D.cpp.o
+
+Matrix2D.i: Matrix2D.cpp.i
+
+.PHONY : Matrix2D.i
+
+# target to preprocess a source file
+Matrix2D.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Matrix2D.cpp.i
+.PHONY : Matrix2D.cpp.i
+
+Matrix2D.s: Matrix2D.cpp.s
+
+.PHONY : Matrix2D.s
+
+# target to generate assembly for a file
+Matrix2D.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Matrix2D.cpp.s
+.PHONY : Matrix2D.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
+Passenger.o: Passenger.cpp.o
+
+.PHONY : Passenger.o
+
+# target to build an object file
+Passenger.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Passenger.cpp.o
+.PHONY : Passenger.cpp.o
+
+Passenger.i: Passenger.cpp.i
+
+.PHONY : Passenger.i
+
+# target to preprocess a source file
+Passenger.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Passenger.cpp.i
+.PHONY : Passenger.cpp.i
+
+Passenger.s: Passenger.cpp.s
+
+.PHONY : Passenger.s
+
+# target to generate assembly for a file
+Passenger.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Passenger.cpp.s
+.PHONY : Passenger.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+Taxi.o: Taxi.cpp.o
+
+.PHONY : Taxi.o
+
+# target to build an object file
+Taxi.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Taxi.cpp.o
+.PHONY : Taxi.cpp.o
+
+Taxi.i: Taxi.cpp.i
+
+.PHONY : Taxi.i
+
+# target to preprocess a source file
+Taxi.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Taxi.cpp.i
+.PHONY : Taxi.cpp.i
+
+Taxi.s: Taxi.cpp.s
+
+.PHONY : Taxi.s
+
+# target to generate assembly for a file
+Taxi.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Taxi.cpp.s
+.PHONY : Taxi.cpp.s
+
+TaxiCenter.o: TaxiCenter.cpp.o
+
+.PHONY : TaxiCenter.o
+
+# target to build an object file
+TaxiCenter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiCenter.cpp.o
+.PHONY : TaxiCenter.cpp.o
+
+TaxiCenter.i: TaxiCenter.cpp.i
+
+.PHONY : TaxiCenter.i
+
+# target to preprocess a source file
+TaxiCenter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiCenter.cpp.i
+.PHONY : TaxiCenter.cpp.i
+
+TaxiCenter.s: TaxiCenter.cpp.s
+
+.PHONY : TaxiCenter.s
+
+# target to generate assembly for a file
+TaxiCenter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiCenter.cpp.s
+.PHONY : TaxiCenter.cpp.s
+
+TaxiLuxury.o: TaxiLuxury.cpp.o
+
+.PHONY : TaxiLuxury.o
+
+# target to build an object file
+TaxiLuxury.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiLuxury.cpp.o
+.PHONY : TaxiLuxury.cpp.o
+
+TaxiLuxury.i: TaxiLuxury.cpp.i
+
+.PHONY : TaxiLuxury.i
+
+# target to preprocess a source file
+TaxiLuxury.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiLuxury.cpp.i
+.PHONY : TaxiLuxury.cpp.i
+
+TaxiLuxury.s: TaxiLuxury.cpp.s
+
+.PHONY : TaxiLuxury.s
+
+# target to generate assembly for a file
+TaxiLuxury.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiLuxury.cpp.s
+.PHONY : TaxiLuxury.cpp.s
+
+TaxiStandard.o: TaxiStandard.cpp.o
+
+.PHONY : TaxiStandard.o
+
+# target to build an object file
+TaxiStandard.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiStandard.cpp.o
+.PHONY : TaxiStandard.cpp.o
+
+TaxiStandard.i: TaxiStandard.cpp.i
+
+.PHONY : TaxiStandard.i
+
+# target to preprocess a source file
+TaxiStandard.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiStandard.cpp.i
+.PHONY : TaxiStandard.cpp.i
+
+TaxiStandard.s: TaxiStandard.cpp.s
+
+.PHONY : TaxiStandard.s
+
+# target to generate assembly for a file
+TaxiStandard.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/TaxiStandard.cpp.s
+.PHONY : TaxiStandard.cpp.s
+
+Trip.o: Trip.cpp.o
+
+.PHONY : Trip.o
+
+# target to build an object file
+Trip.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Trip.cpp.o
+.PHONY : Trip.cpp.o
+
+Trip.i: Trip.cpp.i
+
+.PHONY : Trip.i
+
+# target to preprocess a source file
+Trip.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Trip.cpp.i
+.PHONY : Trip.cpp.i
+
+Trip.s: Trip.cpp.s
+
+.PHONY : Trip.s
+
+# target to generate assembly for a file
+Trip.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4_src.dir/build.make CMakeFiles/ex4_src.dir/Trip.cpp.s
+.PHONY : Trip.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +483,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex4_src"
+	@echo "... BFS.o"
+	@echo "... BFS.i"
+	@echo "... BFS.s"
+	@echo "... Driver.o"
+	@echo "... Driver.i"
+	@echo "... Driver.s"
+	@echo "... Environment.o"
+	@echo "... Environment.i"
+	@echo "... Environment.s"
+	@echo "... Matrix2D.o"
+	@echo "... Matrix2D.i"
+	@echo "... Matrix2D.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
+	@echo "... Passenger.o"
+	@echo "... Passenger.i"
+	@echo "... Passenger.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... Taxi.o"
+	@echo "... Taxi.i"
+	@echo "... Taxi.s"
+	@echo "... TaxiCenter.o"
+	@echo "... TaxiCenter.i"
+	@echo "... TaxiCenter.s"
+	@echo "... TaxiLuxury.o"
+	@echo "... TaxiLuxury.i"
+	@echo "... TaxiLuxury.s"
+	@echo "... TaxiStandard.o"
+	@echo "... TaxiStandard.i"
+	@echo "... TaxiStandard.s"
+	@echo "... Trip.o"
+	@echo "... Trip.i"
+	@echo "... Trip.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
