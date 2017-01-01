@@ -1,0 +1,3 @@
+/home/or/ClionProjects/ex4_src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/or/ClionProjects/ex4_src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/or/ClionProjects/ex4_src/cmake-build-debug/CMakeFiles/ex4_src.dir
